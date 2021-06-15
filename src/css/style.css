@@ -1,0 +1,226 @@
+/*-- ***INFORMATION*** 
+    The designs were created to the following widths:
+    - Mobile: 375px
+    - Desktop: 1440px
+    _____________________________
+    - Font size (name and stats): 18px
+    _____________________________
+    - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+    - Weights: 400, 700
+--*/
+
+/*=============================================
+=     START SECTION | ROOT & IMPORTS           =
+=============================================*/
+/*----------  START SUBSECTION | Google Fonts   ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*----------  START SUBSECTION | Global Variables   ----------*/
+
+:root {
+    /*-- Primary Colors --*/
+    --color-primary-1  : hsl(185, 75%, 39%);
+    --color-primary-2  : hsl(229, 23%, 23%);
+    --color-primary-3  : hsl(227, 10%, 46%);
+    /*-- Secondary Colors--*/
+    --color-secondary-1: hsl(0, 0%, 59%);
+    /*-- Font Family --*/
+    --font-family      : 'Kumbh Sans', sans-serif;
+    /*-- Font Size --*/
+    --font-size-title  : 18px;
+    --font-size-text   : 14px;
+}
+
+/*=====  END OF SECTION ROOT & IMPORTS  ======*/
+
+/*=============================================
+=             START SECTION | CODE           =
+=============================================*/
+
+*,
+*::before,
+*::after {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background : var(--color-primary-1);
+    font-size  : var(--font-size-text);
+    font-family: var(--font-family);
+    max-width  : 1440px;
+    max-height : 100vh;
+    overflow   : hidden;
+}
+
+img {
+    max-width: 100%;
+    width    : 100%;
+}
+
+.card_shapes--container {
+    z-index : -1;
+    position: relative;
+}
+
+.card_shapes--container .card_shape--bg_top img {
+    position  : fixed;
+    top       : -12rem;
+    left      : -4.1rem;
+    overflow-y: hidden;
+    max-width : 40rem;
+}
+
+.card_shapes--container .card_shape--bg_bottom img {
+    position : fixed;
+    right    : -15rem;
+    bottom   : -35rem;
+    max-width: 57rem;
+}
+
+.card--center {
+    position         : absolute;
+    top              : 50%;
+    left             : 50%;
+    z-index          : 0;
+    transform        : translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform   : translate(-50%, -50%);
+    -ms-transform    : translate(-50%, -50%);
+    -o-transform     : translate(-50%, -50%);
+    margin           : auto;
+}
+
+.card--center .card--container {
+    min-width            : 24rem;
+    background           : #FFF;
+    border-radius        : 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius   : 13px;
+    -ms-border-radius    : 13px;
+    -o-border-radius     : 13px;
+    box-shadow           : 0px 15px 35px 0px #2525253a;
+}
+
+.card--container .card_shape--pattern img {
+    border-radius        : 13px 13px 0 0;
+    -webkit-border-radius: 13px 13px 0 0;
+    -moz-border-radius   : 13px 13px 0 0;
+    -ms-border-radius    : 13px 13px 0 0;
+    -o-border-radius     : 13px 13px 0 0;
+}
+
+.card--container .card_abouts--container {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+}
+
+.card_abouts--container .card_about--avatar img {
+    position             : relative;
+    top                  : -4rem;
+    left                 : 0;
+    z-index              : 1;
+    min-width            : 7rem;
+    background-color     : #FFF;
+    border               : 6px solid #FFF;
+    border-radius        : 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius   : 50%;
+    -ms-border-radius    : 50%;
+    -o-border-radius     : 50%;
+}
+
+.card_abouts--container .card_about--name {
+    position     : relative;
+    top          : -2.6rem;
+    left         : 0;
+    font-size    : var(--font-size-title);
+    font-weight  : 700;
+    color        : var(--color-primary-2);
+    margin-bottom: -1.9rem;
+}
+
+.card_abouts--container .card_about--name span {
+    margin-left: .4rem;
+    color      : var(--color-secondary-1);
+    font-weight: 400;
+}
+
+.card_abouts--container .card_about--nation {
+    color        : var(--color-secondary-1);
+    margin-bottom: 1.6rem;
+}
+
+hr.card_separator {
+    height          : .2px;
+    background-color: #cfcfcf;
+    color           : var(--color-secondary-1);
+    border          : none;
+}
+
+.card_datas--containers {
+    display        : flex;
+    flex-flow      : row nowrap;
+    justify-content: space-evenly;
+    text-align     : center;
+    padding        : 1.6rem 0;
+}
+
+.card_datas--containers .card_data--container .card_data--numbers {
+    color        : var(--color-primary-2);
+    font-weight  : 700;
+    font-size    : var(--font-size-title);
+    margin-bottom: .7rem;
+}
+
+.card_datas--containers .card_data--container .card_data--title {
+    color         : var(--color-secondary-1);
+    font-size     : var(--font-size-text);
+    font-weight   : 400;
+    letter-spacing: 1px;
+}
+
+
+/*=====  END OF SECTION CODE  ======*/
+
+
+/*=============================================
+=        START SECTION | MEDIA QUERY           =
+=============================================*/
+
+@media only screen and (max-width: 48em) {
+    .card_shapes--container .card_shape--bg_top img {
+        top : -14rem;
+        left: -20.6rem;
+    }
+
+    .card_shapes--container .card_shape--bg_bottom img {
+        bottom: -15rem;
+        right : -20rem;
+    }
+}
+
+@media only screen and (max-width: 23.5em) {
+    .card_shapes--container .card_shape--bg_top img {
+        top      : -23rem;
+        left     : -26rem;
+        min-width: 40rem;
+    }
+
+    .card_shapes--container .card_shape--bg_bottom img {
+        bottom   : -19rem;
+        right    : -27.5rem;
+        min-width: 40rem;
+    }
+
+    .card--center .card--container {
+        min-width: 18rem
+    }
+
+    .card_abouts--container .card_about--avatar img{
+        min-width: 3rem;
+    }
+}
+
+/*=====  END OF SECTION START SECTION | MEDIA QUERY  ======*/
