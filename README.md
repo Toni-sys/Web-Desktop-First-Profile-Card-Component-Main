@@ -4,8 +4,8 @@ Description: Desktop First UI Challenge only HTML & CSS Advance(Flexbox, Respons
 
 ### Links
 
-- Solution URL: [Repository]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-Profile-Card-Component-Main)
+- Live Site URL: [Live Site](https://toni-sys.github.io/Web-Desktop-First-Profile-Card-Component-Main/)
 
 
 ## Author
