@@ -1,11 +1,18 @@
-# My UI Challenges | Desktop First | Profile Card Component Main
 
-Description: Desktop First UI Challenge only HTML & CSS Advance(Flexbox, Responsive Design)
+# 💻 Profile Card Component Main | Desktop First | My UI Challenges
 
-### Links
+📖 Description: Desktop First UI Challenge only HTML & CSS Advance(Flexbox, Responsive Design)
 
-- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-Profile-Card-Component-Main)
-- Live Site URL: [Live Site](https://antoni-codes.github.io/Web-Desktop-First-Profile-Card-Component-Main/)
+🧪 About the project: Made with CSS3 and HTML5
+
+👨🏻‍🔬 Author: Antonicodes
+
+
+
+## Links
+
+🌐- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-Profile-Card-Component-Main)
+🌐- Live Site URL: [Live Site](https://antoni-codes.github.io/Web-Desktop-First-Profile-Card-Component-Main/)
 
 
 ## Author
