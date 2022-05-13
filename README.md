@@ -18,6 +18,6 @@
 ## Author
 
 - Website - [Desarrollador en Agencia Jeemdev](https://www.jeemdev.com)
-- Behance - [Diseñador en Agencia Jeemdev] [https://toni-sys.github.io/Web-Desktop-First-3-Column-Preview-card-Component/]
+- Behance - [Diseñador en Agencia Jeemdev] [https://www.behance.net/agencia_jeemdev]
 - Instagram - [@antonicodes]
 - Git Hub - [@antoni-codes](https://github.com/Toni-sys)
