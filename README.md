@@ -8,10 +8,9 @@
 👨🏻‍🔬 Author: Antonicodes
 
 
-
 ## Links
 
-🌐- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-Profile-Card-Component-Main)
+🌐- Solution URL: [Repository](https://github.com/antoni-codes/Web-Desktop-First-Profile-Card-Component-Main)
 🌐- Live Site URL: [Live Site](https://antoni-codes.github.io/Web-Desktop-First-Profile-Card-Component-Main/)
 
 
@@ -20,4 +19,4 @@
 - Website - [Desarrollador en Agencia Jeemdev](https://www.jeemdev.com)
 - Behance - [Diseñador en Agencia Jeemdev] [https://www.behance.net/agencia_jeemdev]
 - Instagram - [@antonicodes]
-- Git Hub - [@antoni-codes](https://github.com/Toni-sys)
+- Git Hub - [@antoni-codes](https://github.com/antoni-codes)
